@@ -8,7 +8,13 @@ app.get('/', function (req, res) {
 app.get('/api/teams', function (req, res) {
   res
     .set('Access-Control-Allow-Origin', '*')
-    .send([{id: 1, name: "Thiago"}]);
+    .send({
+      list: [
+        {id: 1, name: "Thiago"},
+        {id: 2, name: "Zaranza"},
+        {id: 3, name: "Sousa"},
+      ]
+    });
 });
 
 app.listen(3000, function () {
