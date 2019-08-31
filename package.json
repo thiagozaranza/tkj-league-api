@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/thiagozaranza/tkj-league-api#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.6.11"
   }
 }
