@@ -46,7 +46,7 @@ app.get('/', (req, res) => {
     res.json({"message": "Welcome to TKJ-League application."});
 });
 
-require('./routes/team.routes.js')(app);
+require('./app/routes/team.routes.js')(app);
 
 // listen for requests
 app.listen(3000, () => {

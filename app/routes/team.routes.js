@@ -1,5 +1,5 @@
 module.exports = (app) => {
-    const teams = require('../controllers/team.controller.js');
+    const teams = require('../app/controllers/team.controller.js.js');
 
     // Create a new Team
     app.post('/api/teams', teams.create);
